@@ -257,6 +257,7 @@
     background-position: center;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
     color: var(--icon-gray-color);
 
     transition-property: background-color, color, border-radius;
@@ -272,7 +273,6 @@
 
   .sn:hover,
   .sn:focus {
-  border-radius: 50%;
   background-color: var(--accent-color);
   color: var( --primary-white-color);
 }
